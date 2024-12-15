@@ -1,0 +1,80 @@
+@import url("main.css");
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+small {
+    font-size:15px;
+    color: black;
+}
+
+.blogContents {
+    height: 77px;
+    overflow: hidden;
+}
+
+.menuOptions {
+    background-color = lightblue;
+}
+
+.menuOptions a{
+    width: 87%;
+    color: black;
+}
+
+.menuOptions a:hover{
+    color: white;
+}
+
+.rightNav {
+    display:relative;
+    bottom: 10px;
+}
+
+.showMoreBtn {
+    background-color: limegreen;
+    margin: 10px;
+    color: white;
+}
+
+#dropMenu {
+    display: none;
+}
+
+#headerImg {
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+}
+
+#littleMenu {
+    display: none;
+}
+
+#menu {
+    padding: 14px;
+    padding-right:0px;
+}
+
+#menu:hover {
+    background-color: #3a5cb5;
+    height: 45px;
+}
