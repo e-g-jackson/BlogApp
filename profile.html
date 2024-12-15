@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>User Profile - BlogApp</title>
+        <link rel="stylesheet" href="resources/css/main.css" type="text/css" />
+        <link rel="stylesheet" href="resources/css/profile.css" type="text/css" />
+    </head>
+    <body>
+        <nav>
+            <ul class="headerNav">
+                <div class="leftNav">
+                    <li class = "headerBtn"><a href="index.html">Home</a></li>
+                    <li class = "headerBtn"><a href="about.html">About</a></li>
+                </div>
+                <div class="rightNav">
+                    <li class = "headerBtn"><span><a href="logout.html">Logout</a></span></li>
+                    <li id = "menu" class = "headerBtn">
+                        <span>
+                            <img id = "headerImg" src = "resources/images/male.jpg">
+                            <i id = "dropMenuArrow" class="fa-solid fa-caret-down"></i>
+                            <a href = "#">
+                                My Account
+                            </a> 
+                        </span>
+                    <span id = "dropMenu"> 
+                        <div class = "menuOptions" style = "background-color: lightblue;">
+                            <a>
+                                <i class = "fas">&#xf406</i> Edit Account
+                            </a>
+                        </div>
+                        <div class = "menuOptions" style = "background-color: lightblue;">
+                            <a>
+                                <i class = "fas">&#xf044</i> Change Picture
+                            </a>
+                        </div>
+                        <div class = "menuOptions" style = "background-color: lightblue;">
+                            <a>
+                                <i class = "fas">&#xf023</i> Change Password
+                            </a>
+                        </div>
+                        <div class = "menuOptions" style = "background-color: lightblue;">
+                            <a>
+                                &#10006 Delete Account
+                            </a>
+                        </div>
+                    </span>
+                </li>
+            </div>
+            <li id = "littleMenu">
+                    <div id = "burgerMenu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div id = "littleDrop"">
+                        <div>
+                            <a href = "index.html">
+                                Home
+                            </a>
+                        </div>
+                        <div>
+                            <a href = "about.html">
+                                About
+                            </a>
+                        </div>
+                        <div>
+                            <a href = "register.html">
+                                Register
+                            </a>
+                        </div>
+                        <div>
+                            <a href = "login.html">
+                                Login
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    <div class="container" id="profile">
+        <section class="profile">
+            <h2>Profile: <span id = "bigUser">User</span></h2>
+            <hr class="top" />
+            <div class="profile-info">
+                <div class="profile-picture">
+                    <img
+                      src="resources/images/male.jpg"
+                      alt="User Profile Picture"
+                      width="200px"
+                    />
+                </div>
+                <div class="profile-details">
+                    <h3 id = "userName">Username</h3>
+                    <p><small>Email: <span id = "email">john@example.com<span></small></p>
+                    <!-- Other profile details can be added here -->
+                </div>
+            </div>
+        </section>
+        <section class="blog-posts">
+            <h2><span id = "articleType">Recent</span> Blog Posts</h2>
+            <!-- Display blog posts here -->
+            <div class="post-title">
+                <h3 id = "headline">Post Title: </h3>
+                <p>Published on: <span id = "published"></span> </p>
+                <div class = "blogContents">
+                    <p id = "contents">
+                        Lorem ipsum odor amet, consectetuer adipiscing elit. Consectetur natoque torquent cursus turpis porta parturient. Morbi nascetur fames mattis mus fringilla fringilla maecenas consequat. Himenaeos cras class torquent at mi ornare. Fringilla dapibus euismod dignissim arcu, potenti et. Lectus himenaeos blandit eu risus dolor. Maecenas quam aliquam ex habitasse odio varius pharetra senectus tincidunt. Conubia cursus hendrerit nisl ac tincidunt eu.
+                        <br>
+                        Aliquet malesuada nibh non habitasse urna urna enim commodo. Tincidunt sapien senectus luctus lorem natoque torquent. Nascetur odio cursus fames bibendum ornare augue. Consectetur placerat vestibulum; himenaeos etiam nunc vivamus dignissim. Tempus felis placerat cursus sem penatibus fringilla facilisis efficitur magna. Etiam diam elementum facilisi nullam aliquet orci fermentum habitasse.
+                    </p>
+                </div>
+                <!-- You can include more details or links to read full post -->
+            </div>
+            <!-- More blog posts can be added similarly -->
+        </section>
+        <a id = "showMoreBtn" class="collapsable readMode" href="#">Show More <i class="fa-solid fa-circle-chevron-down"></i></a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2024 BlogApp. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/2dbc5b91b4.js" crossorigin="anonymous"></script>
+    <script src = "resources/js/profile.js"></script>
+    <script src = "resources/js/main.js"></script>
+  </body>
+</html>
