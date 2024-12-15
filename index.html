@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BlogApp</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="resources/css/main.css" type="text/css" />
+    </head>
+    <body>
+        <nav>
+            <ul class="headerNav">
+            <div class="leftNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </div>
+            <div class="rightNav">
+                <li><a href="register.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+            </div>
+            <li id = "littleMenu">
+                <div id = "burgerMenu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div id = "littleDrop"">
+                    <div>
+                        <a href = "index.html">
+                            Home
+                        </a>
+                    </div>
+                    <div>
+                        <a href = "about.html">
+                            About
+                        </a>
+                    </div>
+                    <div>
+                        <a href = "register.html">
+                            Register
+                        </a>
+                    </div>
+                    <div>
+                        <a href = "login.html">
+                            Login
+                        </a>
+                    </div>
+                </div>
+            </li>
+          </ul>
+        </nav>
+    <main class="container">
+        <h1>BlogApp</h1>
+        <hr class="top" />
+        <section id="featured-posts">
+            <h2>Featured Posts</h2>
+            <div class="post">
+                <h3 id = "titleF1">Post Title:</h3>
+                <small>Published on:<span id = "publishedF1"></span></small>
+                <br>
+                <small>Author: <span id = "authorF1"></span></small>
+                <div class = "articleText">
+                    <p id = "articleF1">
+                        Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum pretium nisi mus dictum sapien aliquet curae hac a. Nisi natoque sociosqu condimentum, pulvinar vehicula risus mattis? Ut primis eleifend quam nec pulvinar in convallis vulputate tellus. Fames integer ridiculus odio; maecenas malesuada ligula. Nulla porttitor natoque magna massa fermentum consequat scelerisque. Mus suspendisse id tristique proin luctus proin adipiscing commodo sollicitudin. Senectus fusce malesuada; nibh etiam torquent in condimentum sagittis taciti. Neque sociosqu parturient luctus potenti tortor ante.
+                        <br>
+                        Primis at id eros rhoncus leo porttitor sit id eu. Rutrum aenean non sollicitudin tempus montes auctor fames. Urna sit sed orci auctor nunc nulla sagittis semper. Maecenas potenti curabitur ultrices primis diam habitant. Ornare ridiculus nam egestas ornare mollis. Ornare vitae ipsum sem; diam risus nec. Fermentum ornare habitant nam at consequat nisi in congue elit. Efficitur eleifend morbi interdum suspendisse primis luctus luctus natoque blandit.
+                    </p>
+                </div>
+            <a class="collapsable readMode" href="#">Show More <i class="fa-solid fa-circle-chevron-down"></i></a>
+            <span >
+                <span class = "voteSpan">
+                    &#128077<!--Thumbs up emoji-->
+                    <span class = "vote">0</span>
+                </span>
+                <span class = "voteSpan">
+                    &#128078<!--Thumbs down emoji-->
+                    <span class = "vote">0</span>
+                </span>
+            </span>
+            
+        <div class="post">
+            <h3 id = "titleF2">Post Title:</h3>
+            <small>Published on:<span id = "publishedF2"></span></small>
+            <br>
+            <small>Author: <span id = "authorF2"></span></small>
+            <div class = "articleText">
+                <p id = "articleF2">
+                    Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum pretium nisi mus dictum sapien aliquet curae hac a. Nisi natoque sociosqu condimentum, pulvinar vehicula risus mattis? Ut primis eleifend quam nec pulvinar in convallis vulputate tellus. Fames integer ridiculus odio; maecenas malesuada ligula. Nulla porttitor natoque magna massa fermentum consequat scelerisque. Mus suspendisse id tristique proin luctus proin adipiscing commodo sollicitudin. Senectus fusce malesuada; nibh etiam torquent in condimentum sagittis taciti. Neque sociosqu parturient luctus potenti tortor ante.
+                    <br>
+                    Primis at id eros rhoncus leo porttitor sit id eu. Rutrum aenean non sollicitudin tempus montes auctor fames. Urna sit sed orci auctor nunc nulla sagittis semper. Maecenas potenti curabitur ultrices primis diam habitant. Ornare ridiculus nam egestas ornare mollis. Ornare vitae ipsum sem; diam risus nec. Fermentum ornare habitant nam at consequat nisi in congue elit. Efficitur eleifend morbi interdum suspendisse primis luctus luctus natoque blandit.
+                </p>
+            </div>
+            <a class="collapsable readMode" href="#">Show More <i class="fa-solid fa-circle-chevron-down"></i></a>
+            <span >
+                <span class = "voteSpan">
+                    &#128077<!--Thumbs up emoji-->
+                    <span class = "vote">0</span>
+                </span>
+                <span class = "voteSpan">
+                    &#128078<!--Thumbs down emoji-->
+                    <span class = "vote">0</span>
+                </span>
+            </span>
+            
+          </div>
+          <!-- More featured posts go here -->
+        </section>
+
+        <section id="recent-posts">
+            <h2>Recent Posts</h2>
+            <div class="post">
+                <h3 id = "titleR1">Post Title</h3>
+                <small>Published on:<span id = "publishedR1"></span></small>
+                <br>
+                <small>Author: <span id = "authorR1"></span></small>
+                <div class = "articleText">
+                    <p id = "articleR1">
+                        Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum pretium nisi mus dictum sapien aliquet curae hac a. Nisi natoque sociosqu condimentum, pulvinar vehicula risus mattis? Ut primis eleifend quam nec pulvinar in convallis vulputate tellus. Fames integer ridiculus odio; maecenas malesuada ligula. Nulla porttitor natoque magna massa fermentum consequat scelerisque. Mus suspendisse id tristique proin luctus proin adipiscing commodo sollicitudin. Senectus fusce malesuada; nibh etiam torquent in condimentum sagittis taciti. Neque sociosqu parturient luctus potenti tortor ante.
+        
+                        Primis at id eros rhoncus leo porttitor sit id eu. Rutrum aenean non sollicitudin tempus montes auctor fames. Urna sit sed orci auctor nunc nulla sagittis semper. Maecenas potenti curabitur ultrices primis diam habitant. Ornare ridiculus nam egestas ornare mollis. Ornare vitae ipsum sem; diam risus nec. Fermentum ornare habitant nam at consequat nisi in congue elit. Efficitur eleifend morbi interdum suspendisse primis luctus luctus natoque blandit.
+                    </p>
+                </div>
+                <a class="collapsable readMode" href="#">Show More <i class="fa-solid fa-circle-chevron-down"></i></a>
+                <span>
+                    <span class = "voteSpan">
+                        &#128077<!--Thumbs up emoji-->
+                        <span class = "vote">0</span>
+                    </span>
+                    <span class = "voteSpan">
+                        &#128078<!--Thumbs down emoji-->
+                        <span class = "vote">0</span>
+                    </span>
+                </span>
+            </div>
+          
+            <div class="post">
+                <h3 id = "titleR2">Post Title</h3>
+                <small>Published on:<span id = "publishedR2"></span></small>
+                <br>
+                <small>Author: <span id = "authorR2"></span></small>
+                <div class = "articleText">
+                    <p id = "articleR2">
+                        Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum pretium nisi mus dictum sapien aliquet curae hac a. Nisi natoque sociosqu condimentum, pulvinar vehicula risus mattis? Ut primis eleifend quam nec pulvinar in convallis vulputate tellus. Fames integer ridiculus odio; maecenas malesuada ligula. Nulla porttitor natoque magna massa fermentum consequat scelerisque. Mus suspendisse id tristique proin luctus proin adipiscing commodo sollicitudin. Senectus fusce malesuada; nibh etiam torquent in condimentum sagittis taciti. Neque sociosqu parturient luctus potenti tortor ante.
+        
+                        Primis at id eros rhoncus leo porttitor sit id eu. Rutrum aenean non sollicitudin tempus montes auctor fames. Urna sit sed orci auctor nunc nulla sagittis semper. Maecenas potenti curabitur ultrices primis diam habitant. Ornare ridiculus nam egestas ornare mollis. Ornare vitae ipsum sem; diam risus nec. Fermentum ornare habitant nam at consequat nisi in congue elit. Efficitur eleifend morbi interdum suspendisse primis luctus luctus natoque blandit.
+                    </p>
+                </div>
+                <a class="collapsable readMode" href="#">Show More <i class="fa-solid fa-circle-chevron-down"></i></a>
+                <span>
+                    <span class = "voteSpan">
+                        &#128077<!--Thumbs up emoji-->
+                        <span class = "vote">0</span>
+                    </span>
+                    <span class = "voteSpan">
+                        &#128078<!--Thumbs down emoji-->
+                        <span class = "vote">0</span>
+                    </span>
+                </span>
+          </div>
+          
+          <!-- More recent posts go here -->
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2024 BlogApp. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/2dbc5b91b4.js" crossorigin="anonymous"></script>
+    <script src = "resources/js/index.js"></script>
+    <script src = "resources/js/main.js"></script>
+  </body>
+</html>
