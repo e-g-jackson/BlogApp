@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>User Profile - BlogApp</title>
+        <link rel="stylesheet" href="resources/css/main.css" type="text/css" />
+        <link rel="stylesheet" href="resources/css/register.css" type="text/css" />
+    </head>
+    <body>
+        <nav>
+            <ul class="headerNav">
+                <div class="leftNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                </div>
+                <div class="rightNav">
+                    <li><a href="login.html">Login</a></li>
+                </div>
+                <li id = "littleMenu">
+                    <div id = "burgerMenu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div id = "littleDrop"">
+                        <div>
+                            <a href = "index.html">
+                                Home
+                            </a>
+                        </div>
+                        <div>
+                            <a href = "about.html">
+                                About
+                            </a>
+                        </div>
+                        <div>
+                            <a href = "register.html">
+                                Register
+                            </a>
+                        </div>
+                        <div>
+                            <a href = "login.html">
+                                Login
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    
+        <h1>Welcome to BlogApp</h1>
+        <div class="container" id="register">
+            <h2>Registation Form</h2>
+            <hr class="top" />
+            <div class="container" id="signup-form">
+            <form action="login.html">
+                <p>Please fill in this form to create an account.</p>
+                <hr>
+                <label for="fname"><b class="formlabel">First Name:</b></label>
+                <i id = "fnameFlag"class= "hiddenSignal fa-solid fa-check"></i>
+                <span id = "fnameWarning" class = "hiddenWarning">Invalid input</span>
+                <input class="formfield" type="text" placeholder="Enter Your First Name" name="fname" id="fname" required>
+                  
+                <label for="lname"><b class="formlabel">Last Name:</b></label>
+                <i id = "lnameFlag"class= "hiddenSignal fa-solid fa-check"></i>
+                <span id = "lnameWarning" class = "hiddenWarning">Invalid input</span>
+                <input class="formfield" type="text" placeholder="Enter Your Last Name" name="lname" id="lname" required>
+                  
+                <label for="email"><b class="formlabel">Email</b></label>
+                <i id = "emailFlag"class= "hiddenSignal fa-solid fa-check"></i>
+                <span id = "emailWarning" class = "hiddenWarning">Invalid input</span>
+                <input class="formfield" type="text" placeholder="Enter Email" name="email" id="email" required>
+              
+                <label for="psw"><b class="formlabel">Password</b></label>
+                <i id = "pswFlag"class= "hiddenSignal fa-solid fa-check"></i>
+                <span id = "pswWarning" class = "hiddenWarning">Invalid input</span>
+                <input class="formfield" type="password" placeholder="Enter Password" name="psw" id="psw" required>
+              
+                <label for="psw-repeat"><b class="formlabel">Repeat Password</b></label>
+                <i id = "pswRepeatFlag"class= "hiddenSignal fa-solid fa-check"></i>
+                <span id = "pswRepeatWarning" class = "hiddenWarning">Invalid input</span>
+                <input class="formfield" type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                <hr>
+              
+                <p>By creating an account you agree to our <a id="privacy" href="#">Terms & Privacy</a>.</p>
+                <button type="submit" id = "registerBtn" class="registerbtn">Register</button>
+            </form>
+        </div>
+        <div id="signin">
+            <p>Already have an account? <a href="login.html"><button id="signin-btn">Sign in</button></a></p>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 BlogApp. All rights reserved.</p>
+    </footer>
+
+    
+    <script src="https://kit.fontawesome.com/2dbc5b91b4.js" crossorigin="anonymous"></script>
+    <script src = "resources/js/main.js"></script>
+    <script src = "resources/js/register.js"></script>
+    </body>
+  </html>
+  
+  </body>
+</html>
