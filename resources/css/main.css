@@ -1,0 +1,150 @@
+@media (max-width: 768px){
+    .headerBtn {
+        display: none !important;
+    }
+    
+    .leftNav {
+        visibility: hidden;
+    }
+    
+    .rightNav {
+        visibility: hidden;
+    }
+    
+    #burgerMenu {
+        position: relative;
+        top: 14px;
+        color: white;
+    }
+    
+    #littleDrop a:link{
+        color: white;
+    }
+    
+    #littleDrop a:visited{
+        color: white;
+    }
+    
+    #littleDrop a:hover {
+        width: 45px;
+    }
+    
+    #burgerMenu i{
+        position: fixed;
+        right:20px;
+    }
+    
+    #headerImg {
+        display: none;
+    }
+    
+    #littleDrop {
+        display: none;
+        position: relative;
+        top: 10px;
+        left: 16px;
+    }
+    
+    #littleDrop a:hover{
+        color: white;
+    }
+    
+    #littleDrop div{
+        background-color: #5c7dd3;
+        width: 100%;
+        position: relative;
+        top: 35px;
+    }
+    
+    #littleMenu {
+        display: block !important;
+    }
+}
+
+body {
+    font-family: helvetica;
+}
+
+footer {
+    color: white;
+    background-color: #5c7dd3;
+    height: 60px;
+    padding-left: 20px;
+    position: sticky;
+    bottom:0;
+}
+
+hr {
+    background: linear-gradient(to right, #5c7dd3, #fe7521);
+    height: 5px;
+}
+
+nav{
+    position: sticky;
+    top:0;
+    width: 100%;
+}
+
+small {
+    font-size:13px;
+    color: grey;
+}
+
+.articleText{
+    overflow: hidden;
+    height: 72px;
+}
+
+.headerNav {
+    background-color: #5c7dd3;
+    display: flex;
+    height: 45px;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.headerNav a {
+    color: white;
+    display:inline-block;
+    padding: 13px;
+}
+
+.headerNav a:hover{
+    background-color: #3a5cb5;
+}
+
+.leftNav {
+    list-style-type: none;
+    align-self: left;
+}
+
+.leftNav li{
+    display: inline;
+}
+
+.post{
+    margin-bottom:30px;
+}
+
+.readMode {
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    color: #fe7521;
+}
+
+.rightNav{
+    list-style-type:none;
+    align-self: right;
+}
+.rightNav li {
+    display: inline;
+}
+
+.voteSpan:hover{
+    cursor: pointer;
+}
+
+#littleMenu {
+    display:none;
+}
